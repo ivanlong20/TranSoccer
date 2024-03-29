@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/TranSoccer/static/js/main.92df14d2.js",
+    "main.js": "/TranSoccer/static/js/main.dca424c1.js",
     "index.html": "/TranSoccer/index.html",
-    "main.92df14d2.js.map": "/TranSoccer/static/js/main.92df14d2.js.map"
+    "main.dca424c1.js.map": "/TranSoccer/static/js/main.dca424c1.js.map"
   },
   "entrypoints": [
-    "static/js/main.92df14d2.js"
+    "static/js/main.dca424c1.js"
   ]
 }
