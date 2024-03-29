@@ -11,9 +11,7 @@ function Body(props) {
   const [filter, setFilter] = React.useState();
 
   useEffect(() => {
-    fetch("https://transfer-windows-api-project.onrender.com/premier-league", {
-      mode: "no-cors",
-    })
+    fetch("https://transfer-windows-api-project.onrender.com/premier-league")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
