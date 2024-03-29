@@ -11,7 +11,7 @@ function Body(props) {
   const [filter, setFilter] = React.useState();
 
   useEffect(() => {
-    fetch("/premier-league")
+    fetch("https://transfer-windows-api-project.onrender.com/premier-league")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
@@ -22,112 +22,122 @@ function Body(props) {
   function selectLeague(name) {
     setFilter(name);
     if (name === "Bundesliga") {
-      fetch("/bundesliga")
+      fetch("https://transfer-windows-api-project.onrender.com/bundesliga")
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "Premier League") {
-      fetch("/premier-league")
+      fetch("https://transfer-windows-api-project.onrender.com/premier-league")
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "La Liga") {
-      fetch("/la-liga")
+      fetch("https://transfer-windows-api-project.onrender.com/la-liga")
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "Serie A") {
-      fetch("/serie-a")
+      fetch("https://transfer-windows-api-project.onrender.com/serie-a")
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "Ligue 1") {
-      fetch("/ligue-1")
+      fetch("https://transfer-windows-api-project.onrender.com/ligue-1")
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "Hong Kong Premier League") {
-      fetch("/hk-premier-league")
+      fetch(
+        "https://transfer-windows-api-project.onrender.com/hk-premier-league"
+      )
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "Eredivisie") {
-      fetch("/eredivisie")
+      fetch("https://transfer-windows-api-project.onrender.com/eredivisie")
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "Liga Portugal") {
-      fetch("/liga-portugal")
+      fetch("https://transfer-windows-api-project.onrender.com/liga-portugal")
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "Super Lig") {
-      fetch("/super-lig")
+      fetch("https://transfer-windows-api-project.onrender.com/super-lig")
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "J1 League") {
-      fetch("/j1-league")
+      fetch("https://transfer-windows-api-project.onrender.com/j1-league")
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "K League 1") {
-      fetch("/k-league-1")
+      fetch("https://transfer-windows-api-project.onrender.com/k-league-1")
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "A-League") {
-      fetch("/australia-a-league")
+      fetch(
+        "https://transfer-windows-api-project.onrender.com/australia-a-league"
+      )
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "MLS") {
-      fetch("/major-league-soccer")
+      fetch(
+        "https://transfer-windows-api-project.onrender.com/major-league-soccer"
+      )
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "Saudi Pro League") {
-      fetch("/saudi-pro-league")
+      fetch(
+        "https://transfer-windows-api-project.onrender.com/saudi-pro-league"
+      )
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "UAE Pro League") {
-      fetch("/uae-pro-league")
+      fetch("https://transfer-windows-api-project.onrender.com/uae-pro-league")
         .then((res) => res.json())
         .then((data) => {
           setData(data);
           setLoading(false);
         });
     } else if (name === "Qatar Stars League") {
-      fetch("/qatar-stars-league")
+      fetch(
+        "https://transfer-windows-api-project.onrender.com/qatar-stars-league"
+      )
         .then((res) => res.json())
         .then((data) => {
           setData(data);
