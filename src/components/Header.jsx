@@ -108,7 +108,7 @@ function Header(props) {
             TranSoccer
           </Typography>
           <div className="content-text">
-            <Box sx={{ display: { xs: "block", sm: "block" } }}>
+            <Box sx={{ display: { xs: "none", sm: "block" } }}>
               {navItems.map((item) => (
                 <a
                   className={
