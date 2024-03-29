@@ -76,19 +76,19 @@
 
   }
   .icon:first-child i {
-    margin-left: 10px;
+    /* margin-left: 10px; */
   } 
   .icon:last-child i {
     margin-right: 10px;
   } 
   .wrapper .tabs-box {
-    margin-left:70px;
+    margin-left:60px;
     margin-right:70px;
-    padding-left:20px;
     display: flex;
     gap: 12px;
     list-style: none;
-    overflow-x: hidden;
+    scrollbar-color: rgb(202, 202, 202) transparent;
+    overflow-x: scroll;
     scroll-behavior: smooth;
     border-radius: 30px;
     backdrop-filter: blur(0.8px);
