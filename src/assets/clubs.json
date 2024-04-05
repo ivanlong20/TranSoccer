@@ -1,6 +1,50 @@
 {
   "data": [
     {
+      "club_id": "1059",
+      "name": "Hammarby IF",
+      "fullName": "Hammarby IF",
+      "image": "https://tmssl.akamaized.net/images/wappen/medium/1059.png?lm=1420188123",
+      "nationalTeam": "",
+      "flag": null,
+      "marketValue": null,
+      "mainCompetition": {
+        "club_id": "SE1",
+        "name": "Allsvenskan",
+        "shortName": "Allsvenskan",
+        "image": "https://tmssl.akamaized.net/images/logo/normal/se1.png?lm=1618018440",
+        "leagueLevel": null,
+        "isTournament": null
+      }
+    },
+    {
+      "club_id": "6371",
+      "name": "FUS Rabat",
+      "fullName": "FUS Rabat",
+      "image": "https://tmssl.akamaized.net/images/wappen/medium/6371.png?lm=1421010460",
+      "nationalTeam": "",
+      "flag": null,
+      "marketValue": null,
+      "mainCompetition": {
+        "club_id": "MAR1",
+        "name": "Botola Pro Inwi",
+        "shortName": "Botola Pro Inwi",
+        "image": "https://tmssl.akamaized.net/images/logo/normal/mar1.png?lm=1649263824",
+        "leagueLevel": null,
+        "isTournament": null
+      }
+    },
+    {
+      "club_id": "87364",
+      "name": "Club Albion",
+      "fullName": "Club Albion",
+      "image": "https://tmssl.akamaized.net/images/wappen/medium/87364.png?lm=1615324035",
+      "nationalTeam": "",
+      "flag": null,
+      "marketValue": null,
+      "mainCompetition": null
+    },
+    {
       "club_id": 105,
       "club_code": "sv-darmstadt-98",
       "name": "Sportverein Darmstadt 1898 e. V.",
