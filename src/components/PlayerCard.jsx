@@ -74,8 +74,8 @@ export default function PlayerCard(props) {
       sx={{
         display: "flex",
         flexDirection: "column",
-        width: 350,
-        margin: "10px",
+        width: 330,
+        margin: "5px",
         fontFamily: "Nunito Sans",
         backgroundColor: props.theme.palette.primary.background,
         color: props.theme.palette.primary.contrastText,

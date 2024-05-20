@@ -211,7 +211,9 @@ function Body(props) {
           selectLeague={selectLeague}
           filter={filter}
         />
-        <Box sx={{ display: "flex", flexWrap: "wrap" }}>
+        <Box
+          sx={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+        >
           {!loading ? (
             data.data.map((player) => (
               <PlayerCard theme={props.theme} player={player} />
